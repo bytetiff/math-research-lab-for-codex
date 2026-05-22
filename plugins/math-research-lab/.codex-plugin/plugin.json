@@ -1,0 +1,32 @@
+{
+  "name": "math-research-lab",
+  "version": "0.1.0",
+  "description": "Universal mathematical research audit plugin for formalization, proof critique, metric validation, experiment auditing, numerical and statistical validation, geometric and spectral analysis, concept governance, and evidence-bound adversarial research judging.",
+  "author": {
+    "name": "Max"
+  },
+  "license": "MIT",
+  "keywords": [
+    "mathematics",
+    "research",
+    "scientific-audit",
+    "proof-audit",
+    "metric-audit",
+    "hypothesis-testing",
+    "research-judge"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Math Research Lab",
+    "shortDescription": "Audit mathematical ideas, experiments, metrics, and research hypotheses.",
+    "longDescription": "A domain-agnostic research audit plugin for Codex. It formalizes mathematical problems, critiques derivations, validates metrics and experiments, analyzes numerical, statistical, geometric, spectral, and optimization evidence, manages candidate concepts, prevents concept substitution, and judges research claims through a balanced evidence-bound adversarial protocol.",
+    "developerName": "Max",
+    "category": "Research",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": [
+      "Use Math Research Lab to formalize this research claim and derive proof obligations.",
+      "Use Math Research Lab to audit this unusual experimental result before proposing improvements.",
+      "Use Math Research Lab to judge whether this proposed mechanism is supported, overstated, or contradicted."
+    ]
+  }
+}
